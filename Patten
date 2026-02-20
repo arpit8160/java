@@ -1,0 +1,178 @@
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+
+// class Q1
+// {
+//     public static void main(String[] args)
+//     {
+//         int n=5;
+//         int j;
+//         int i;
+//         for(i=1;i<=n;i++)                                         
+//         {
+//             for(j=1;j<=i;j++)
+//             {
+//                 System.out.print(j);
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+
+// class Q2 
+// {
+//     public static void main(String[] args)
+//     {
+//         int i,j;
+//         int n=5;
+//         for(i=n;i>=0;i--)
+//         {
+//             for(j=0;j<=i;j++)
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+//         *
+//       * *
+//     * * *
+//   * * * *
+// * * * * *  
+
+// class Q3
+// {
+//     public static void main(String[] args) {
+//         int n=5;
+//         int i,j,k;
+//         for(i=0;i<=n;i++)
+//         {
+//             for(j=0;j<=n-i;j++)
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(k=0;k<=i;k++)
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// * * * * *
+//   * * * *
+//     * * *
+//       * *
+//         *
+
+// class Q4
+// {
+//     public static void main(String[] args) {
+//         int n=5;
+//         int i,j,k;
+//         for(i=n;i>=0;i--)
+//         {
+//             for(j=0;j<=n-i;j++)
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(k=0;k<=i;k++)
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+//    *
+//   ***
+//  *****
+// *******
+
+// class Q5
+// {
+//     public static void main(String[] args) {
+//         int n=4;
+//         int i,j,k;
+//         for(i=0;i<n;i++)
+//         {
+//             for(j=0;j<n-i;j++)
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(k=0;k<(2*i+1);k++)
+//             {
+//                 System.out.print((char)(65+k));
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// *******
+//  *****
+//   ***
+//    *
+
+// class Q6
+// {
+//     public static void main(String[] args) {
+//         int n=4;
+//         int i,j,k;
+//         for(i=n;i>=0;i--)
+//         {
+//             for(j=0;j<n-i;j++)
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(k=0;k<(2*i-1);k++)
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+
+//     A
+//    1 2
+//   A B C
+//  1 2 3 4
+// A B C D E
+
+class Q7
+{
+    public static void main(String[] args) {
+        int n=5;
+        int i,j,k;
+        for(i=0;i<n;i++)
+        {
+            for(j=0;j<n-i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(k=0;k<(2*i+1);k++)
+            {
+               System.out.print((char)(65+k));
+            }
+            System.out.println();
+        }
+    }
+}
